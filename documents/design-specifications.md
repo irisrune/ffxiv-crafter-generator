@@ -13,7 +13,7 @@ UI/UXの提供を行う。
 
 #### 使用言語
 
-未定
+未定（gatsbyjsなど候補）
 
 #### 使用フレームワーク
 
@@ -27,11 +27,11 @@ Viewに対するバックエンド部分の処理を行う。
 
 #### 使用言語
 
-Ruby
+Ruby or firebase
 
 #### 使用フレームワーク
 
-Ruby on Rails
+"Ruby on Rails" or firebase
 
 #### 構成
 
