@@ -41,7 +41,7 @@ Ruby or firebase
 
 #### 使用DBドライバ
 
-MySQL
+MySQL or NOSQL
 
 #### テーブルリスト
 
