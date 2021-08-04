@@ -3,9 +3,8 @@
 ## 全体構成
 
 * View
-  * Controller-Model
-    * DB
-    * API
+  * Controller-Model-DB
+  * API
 
 ### View
 
@@ -45,6 +44,10 @@ MySQL or NOSQL
 
 #### テーブルリスト
 
+1. recipes 製作レシピ
+2. foods 食事
+3. medicines 薬
+
 ### API
 
 アプリケーションのコアとなるスキル回し生成機能を単一のAPIとして実装する。
@@ -58,3 +61,10 @@ Go
 Echo
 
 #### 構成
+
+* main API本体
+  * generator コア部分
+    * condition 工数・品質・状態・ターン数をまとめた物
+      * buffs バフ
+    * skills スキル
+    * calculator 各種計算機
